@@ -37,8 +37,11 @@ public class SmsReceiver extends BroadcastReceiver {
                 if(phone.equals(Constants.phoneNo)){
                     String message = smsMessage.getMessageBody();
                     String msg = message.replace("GMS-01913 1/1\r\nC1\r\n","");
+
                     MainActivity inst = MainActivity.instance();
-                    inst.showMessage(msg);
+                    if(inst != null){
+                        inst.showMessage(msg);
+                    }
                 }
             }
         }
