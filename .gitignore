@@ -8,6 +8,8 @@
 # Java class files
 *.class
 
+# Constaint
+app/src/main/java/giulio/cinelli/vimar_termostato/Utils/Constants.java
 # Generated files
 bin/
 gen/
