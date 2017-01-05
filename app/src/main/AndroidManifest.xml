@@ -3,6 +3,7 @@
     package="giulio.cinelli.vimar_termostato">
     <uses-permission android:name="android.permission.RECEIVE_SMS"/>
     <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -32,8 +33,7 @@
             android:name="io.fabric.ApiKey"
             android:value="fd0b490712b066f247ab6d80d0d7862b726a4ad7"
             />
-        <uses-permission android:name="android.permission.INTERNET" />
     </application>
 
-    <uses-permission android:name="android.permission.INTERNET" />
+
 </manifest>
